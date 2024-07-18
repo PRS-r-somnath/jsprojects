@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess the Number</title>
+  <style>
+    body{
+      color:white;
+    }
+    .container {
+      max-width: 400px;
+      background-color: black;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      max-width:500px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    input[type="number"], button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    #guess{
+      border-radius: 45px;
+    }
+    button {
+      background-color:green;
+      border-radius: 120px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #message {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Guess the Number</h1>
+  <p>Guess a number between 1 and 10:</p>
+  <input id="guess" type="number" min="1" max="10">
+  <button onclick="checkGuess()">Check</button>
+  <div id="randomNumberContainer"></div>
+  <p id="message"></p>
+</div>
+
+<script>
+  var attempts = 0;
+  function checkGuess() {
+    var guess = parseInt(document.getElementById("guess").value);
+    attempts++;
+    if(guess=={}){
+      
+    }
+    var randomNumber = Math.floor(Math.random() * 10) + 1;
+
+    var randomNumberInput = document.getElementById("randomNumberInput");
+    if (!randomNumberInput) {
+      randomNumberInput = document.createElement("input");
+      randomNumberInput.id = "randomNumberInput";
+      randomNumberInput.readOnly = true;
+      randomNumberInput.style.marginTop = "10px";
+      randomNumberInput.style.borderRadius="120px";
+      randomNumberInput.style.width="80px";
+      randomNumberInput.style.height="35px";
+      document.getElementById("randomNumberContainer").appendChild(randomNumberInput);
+    }
+    randomNumberInput.value = randomNumber;
+    var message = document.getElementById("message");
+    if (guess === randomNumber) {
+      message.textContent = `Congratulations! You guessed the number ${randomNumber} in ${attempts} attempts.`;
+      alert("you won")
+    }
+    else {
+      message.textContent = "Try again.";
+    }
+  }
+</script>
+</body>
+</html>
