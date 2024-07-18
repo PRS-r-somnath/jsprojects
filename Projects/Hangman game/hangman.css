@@ -1,0 +1,39 @@
+.container {
+  margin: 50px auto;
+  max-width: 600px;
+  background-color:palegreen;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hangman {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.word {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.letters {
+  margin: 20px 0;
+}
+
+.letters button {
+  font-size: 24px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.incorrect-guesses {
+  font-size: 20px;
+  margin-top: 20px;
+  color: red;
+}
+
+.hint {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 20px;
+}
