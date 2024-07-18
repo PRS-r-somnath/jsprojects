@@ -1,0 +1,40 @@
+.container {
+  color:white;
+  text-align: center;
+  background:black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 500px;
+  margin:40px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+}
+.timespeed{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
