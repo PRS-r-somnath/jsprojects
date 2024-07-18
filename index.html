@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Projects Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="floating-objects">
+        <div class="object object1"></div>
+        <div class="object object2"></div>
+        <div class="object object3"></div>
+    </div>
+    <div class="container">
+        <!-- Repeat this project block for each project -->
+        <div class="project">
+            <h2>Project 1: Guess the Number</h2>
+            <p>This is a simple game where you guess the number. The game generates a random number, and you have to guess it within a certain number of attempts. It provides feedback on whether your guess is too high or too low, helping you narrow down the correct number.</p>
+            <button onclick="openProject('./Projects/guess the number/guess number.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 2: Snake Game</h2>
+            <p>This is a classic snake game built with JavaScript. You control a snake that moves around the screen, eating food to grow longer. The goal is to avoid running into the walls or the snake's own body. The game gets progressively harder as the snake grows longer.</p>
+            <button onclick="openProject('./Projects/snake game/snake.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 3: Typing Speed Test</h2>
+            <p>This project tests your typing speed. It presents you with a passage of text to type, and measures how quickly and accurately you can type it. The results include your words per minute (WPM) and accuracy percentage, helping you improve your typing skills.</p>
+            <button onclick="openProject('./Projects/Typing speed test/typing speed.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 4: Sound Board</h2>
+            <p>This project simulates a sound board. It provides a variety of buttons that play different sounds when clicked. You can use it to create your own sound effects or music by combining the different sounds available on the board.</p>
+            <button onclick="openProject('./Projects/sound-board/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 5: Theme Clock</h2>
+            <p>This project displays a clock with different themes. You can switch between various themes to change the appearance of the clock. It also includes features like displaying the current date and time in a visually appealing manner.</p>
+            <button onclick="openProject('./Projects/theme-clock/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 6: Drum Kit</h2>
+            <p>This project simulates a drum kit with sounds. You can play different drum sounds by clicking on the drum elements or using keyboard shortcuts. It's a fun way to create your own drum beats and practice your rhythm skills.</p>
+            <button onclick="openProject('./Projects/Drum Kit/index-FINISHED.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 7: Speech Detection</h2>
+            <p>This project generates speech from text input. You can type in any text, and the project will use speech synthesis to read it out loud. It's a useful tool for converting written text into spoken words, and can be used for various applications like accessibility or language learning.</p>
+            <button onclick="openProject('./Projects/Speech Detection/index-FINISHED.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 8: Simple Calculator</h2>
+            <p>This project is a simple calculator. It allows you to perform basic arithmetic operations like addition, subtraction, multiplication, and division. The calculator has a user-friendly interface and can handle both integer and decimal calculations.</p>
+            <button onclick="openProject('./Projects/Simple Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 9: To-Do List App</h2>
+            <p>This project helps you manage a to-do list. You can add, edit, and delete tasks, as well as mark them as completed. The app provides a simple and efficient way to keep track of your tasks and stay organized.</p>
+            <button onclick="openProject('./Projects/To-Do-List/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 10: Random Quote Generator</h2>
+            <p>This project generates random quotes. Each time you click the button, a new quote is displayed. It's a great way to get inspired or find interesting quotes to share with others.</p>
+            <button onclick="openProject('./Projects/Random Quote Generator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 11: Temperature Converter</h2>
+            <p>This project converts temperatures between different units. You can input a temperature in Celsius, Fahrenheit, or Kelvin, and the project will convert it to the other units. It's a handy tool for quickly converting temperatures without needing to do the math yourself.</p>
+            <button onclick="openProject('./Projects/Temperature Converter/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 12: Currency Converter</h2>
+            <p>This project converts currencies between different units. You can input an amount in one currency, and the project will convert it to the other currencies based on the current exchange rates. It's a useful tool for travelers or anyone dealing with multiple currencies.</p>
+            <button onclick="openProject('./Projects/Currency Converter/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 13: Speech Recognition Interface</h2>
+            <p>This project provides a speech recognition interface. You can use it to convert spoken words into text. The project uses the Web Speech API to recognize your voice and display the transcribed text on the screen. It's a useful tool for hands-free typing or accessibility purposes.</p>
+            <button onclick="openProject('./Projects/Speech Recognition Interface/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 14: BG Video</h2>
+            <p>This project displays a background video. You can use it to add a dynamic and visually appealing background to your web pages. The project supports various video formats and provides controls for playing, pausing, and adjusting the volume of the video.</p>
+            <button onclick="openProject('./Projects/bg-video/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 15: Background Color Changer</h2>
+            <p>This project changes the background color of the web page. You can select different colors from a palette or use random colors. It's a simple yet effective way to customize the appearance of your web pages and make them more visually appealing.</p>
+            <button onclick="openProject('./Projects/Background Color Changer/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 16: Random Emojis</h2>
+            <p>This project generates random emojis. Each time you click the button, a new emoji is displayed. It's a fun way to discover new emojis and add some visual interest to your web pages or messages.</p>
+            <button onclick="openProject('./Projects/Random Emojies/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 17: KeyCode</h2>
+            <p>This project displays the key code of the key you press. It's a useful tool for developers to identify the key codes of different keys on the keyboard. The project provides a visual representation of the key code and the corresponding key.</p>
+            <button onclick="openProject('./Projects/keyCode/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 18: Random Quote</h2>
+            <p>This project generates random quotes. Each time you click the button, a new quote is displayed. It's a great way to get inspired or find interesting quotes to share with others.</p>
+            <button onclick="openProject('./Projects/Random Quote/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 19: Eye Follow</h2>
+            <p>This project creates an eye-following effect. The eyes on the screen follow the movement of your mouse cursor. It's a fun and interactive way to add some animation to your web pages and engage your users.</p>
+            <button onclick="openProject('./Projects/Eye Follow/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 20: Light</h2>
+            <p>This project simulates a light bulb that you can turn on and off. It provides a simple switch that toggles the light bulb's state. It's a fun way to add some interactivity to your web pages and demonstrate basic JavaScript functionality.</p>
+            <button onclick="openProject('./Projects/Light/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 21: Emoji Catcher Game</h2>
+            <p>This project is a game where you catch falling emojis. The goal is to catch as many emojis as possible within a certain time limit. The game gets progressively harder as the emojis fall faster. It's a fun and challenging game that tests your reflexes and hand-eye coordination.</p>
+            <button onclick="openProject('./Projects/Emoji Catcher Game/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 22: Shape Clicker Game</h2>
+            <p>This project is a game where you click on different shapes to score points. The shapes appear randomly on the screen, and you have to click on them before they disappear. The game gets progressively harder as the shapes appear and disappear faster. It's a fun and challenging game that tests your reflexes and hand-eye coordination.</p>
+            <button onclick="openProject('./Projects/Shape Clicker Game/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 23: Piano 2</h2>
+            <p>This project simulates a piano. You can play different notes by clicking on the piano keys or using keyboard shortcuts. It's a fun way to create your own music and practice your piano skills.</p>
+            <button onclick="openProject('./Projects/piano 2/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 24: Piano</h2>
+            <p>This project simulates a piano. You can play different notes by clicking on the piano keys or using keyboard shortcuts. It's a fun way to create your own music and practice your piano skills.</p>
+            <button onclick="openProject('./Projects/piano/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 25: Piano 3</h2>
+            <p>This project simulates a piano. You can play different notes by clicking on the piano keys or using keyboard shortcuts. It's a fun way to create your own music and practice your piano skills.</p>
+            <button onclick="openProject('./Projects/piano 3/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 26: Voice Generator</h2>
+            <p>This project generates speech from text input. You can type in any text, and the project will use speech synthesis to read it out loud. It's a useful tool for converting written text into spoken words, and can be used for various applications like accessibility or language learning.</p>
+            <button onclick="openProject('./Projects/voice genearator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 27: Ping Pong Game</h2>
+            <p>This project is a classic ping pong game. You control a paddle and try to hit the ball past your opponent's paddle. The game gets progressively harder as the ball speeds up. It's a fun and challenging game that tests your reflexes and hand-eye coordination.</p>
+            <button onclick="openProject('./Projects/ping-pong-game/ping.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 28: Word Counter</h2>
+            <p>This project counts the number of words in a given text input. You can paste or type in any text, and the project will display the word count. It's a useful tool for writers, students, and anyone who needs to keep track of their word count.</p>
+            <button onclick="openProject('./Projects/WordCounter/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 29: Voice Generator</h2>
+            <p>This project generates speech from text input. You can type in any text, and the project will use speech synthesis to read it out loud. It's a useful tool for converting written text into spoken words, and can be used for various applications like accessibility or language learning.</p>
+            <button onclick="openProject('./Projects/VoiceGenerator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 30: Expense Tracker</h2>
+            <p>This project helps you track your expenses. You can add, edit, and delete expense entries, as well as categorize them. The project provides a summary of your expenses, helping you manage your budget and keep track of your spending.</p>
+            <button onclick="openProject('./Projects/Expense-Tracker/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 31: Counter Application</h2>
+            <p>This project is a simple counter application. You can increment, decrement, and reset the counter. It's a useful tool for keeping track of counts, such as the number of items, events, or occurrences.</p>
+            <button onclick="openProject('./Projects/Counter-Applicatoin/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 32: Hide and Show Password</h2>
+            <p>This project allows you to hide and show passwords. It provides a toggle button that switches between showing the password as plain text and hiding it as dots. It's a useful feature for password input fields, enhancing both security and usability.</p>
+            <button onclick="openProject('./Projects/Hide-and-Show-Password/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 33: Email Validation</h2>
+            <p>This project validates email addresses. You can input an email address, and the project will check if it is in a valid format. It's a useful tool for ensuring that email addresses are correctly formatted before submitting forms or sending emails.</p>
+            <button onclick="openProject('./Projects/Email-Validation/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 34: Generate Random Password</h2>
+            <p>This project generates random passwords. You can specify the length and complexity of the password, and the project will create a strong and secure password for you. It's a useful tool for creating passwords that are difficult to guess or crack.</p>
+            <button onclick="openProject('./Projects/Generate-Random-Password/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 35: Prime and Non-Prime Number</h2>
+            <p>This project checks if a number is prime or not. You can input any number, and the project will determine if it is a prime number. It's a useful tool for learning about prime numbers and testing different numbers for primality.</p>
+            <button onclick="openProject('./Projects/Prime-and-Non-Prime-Number/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 36: Poll-System-Application</h2>
+            <p>This project allows you to create and manage polls. Users can create polls with multiple options, and other users can vote on these options. The project provides real-time updates on the poll results, making it a great tool for gathering opinions and making decisions based on collective input.</p>
+            <button onclick="openProject('./Projects/Poll-System-Application/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 37: Random-Color-Generator</h2>
+            <p>This project generates random colors. Each time you click the button, a new color is displayed. It's a fun and useful tool for designers and developers who need inspiration for color schemes or want to experiment with different color combinations.</p>
+            <button onclick="openProject('./Projects/Random-Color-Generator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 38: Age Calculator</h2>
+            <p>This project calculates your age based on your date of birth. You can input your birthdate, and the project will display your age in years, months, and days. It's a handy tool for quickly determining your exact age and can be used for various applications like birthday reminders or age verification.</p>
+            <button onclick="openProject('./Projects/Age+Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 39: BMI Calculator</h2>
+            <p>This project calculates your Body Mass Index (BMI). You can input your height and weight, and the project will determine your BMI and categorize it as underweight, normal weight, overweight, or obese. It's a useful tool for tracking your health and fitness levels.</p>
+            <button onclick="openProject('./Projects/BMI-Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 40: Tip Calculator</h2>
+            <p>This project helps you calculate the tip amount for a given bill. You can input the bill amount and the desired tip percentage, and the project will calculate the tip amount and the total bill including the tip. It's a handy tool for dining out and ensuring you leave an appropriate tip.</p>
+            <button onclick="openProject('./Projects/Tip-Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 41: To-Do List</h2>
+            <p>This project helps you manage your tasks with a to-do list. You can add, edit, and delete tasks, as well as mark them as completed. The project provides a simple and efficient way to keep track of your daily tasks and stay organized.</p>
+            <button onclick="openProject('./Projects/To-Do-List/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 42: Cash Calculator Application</h2>
+            <p>This project helps you calculate cash denominations. You can input the total amount of cash, and the project will break it down into different denominations such as bills and coins. It's a useful tool for cashiers, accountants, and anyone who needs to handle cash transactions.</p>
+            <button onclick="openProject('./Projects/Cash-Calculator-Application/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 43: Dictionary Application</h2>
+            <p>This project is a simple dictionary application. You can input a word, and the project will provide its definition, synonyms, and usage examples. It's a useful tool for students, writers, and anyone looking to expand their vocabulary and improve their language skills.</p>
+            <button onclick="openProject('./Projects/Dictionary-Application/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 44: Random Generator</h2>
+            <p>This project generates random numbers, strings, or other data based on user input. You can specify the range or criteria for the random data, and the project will generate it accordingly. It's a useful tool for developers, statisticians, and anyone who needs to generate random data for testing or analysis.</p>
+            <button onclick="openProject('./Projects/Random-Generator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 45: Hello Name Application</h2>
+            <p>This project greets you with your name. You can input your name, and the project will display a personalized greeting message. It's a fun and interactive way to add a personal touch to your web pages and make users feel welcome.</p>
+            <button onclick="openProject('./Projects/Hello-Name-Application/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 46: Loan Calculator</h2>
+            <p>This project helps you calculate loan payments. You can input the loan amount, interest rate, and loan term, and the project will calculate the monthly payment and total interest paid. It's a useful tool for borrowers and lenders to understand the financial implications of a loan.</p>
+            <button onclick="openProject('./Projects/Loan-Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 47: Mouse Wheel Zoom In Out Application</h2>
+            <p>This project allows you to zoom in and out of content using the mouse wheel. It's a useful feature for enhancing the user experience on web pages, especially for viewing images, maps, or detailed content. The project provides smooth and intuitive zooming functionality.</p>
+            <button onclick="openProject('./Projects/Mouse-Wheel-Zoom-In-Out-Application/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 48: Notes Taking Application Like Sticky Notes</h2>
+            <p>This project is a notes-taking application similar to sticky notes. You can create, edit, and delete notes, as well as organize them by categories or colors. It's a handy tool for keeping track of ideas, reminders, and important information in a visually appealing way.</p>
+            <button onclick="openProject('./Projects/Notes-Taking-Application-Like-Sticky-Notes/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 49: Random Paragraph Generator</h2>
+            <p>This project generates random paragraphs of text. You can specify the number of paragraphs or the type of content, and the project will create it accordingly. It's a useful tool for writers, developers, and anyone who needs placeholder text for testing or creative purposes.</p>
+            <button onclick="openProject('./Projects/Random-Paragraph-Generator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 50: FD Calculator</h2>
+            <p>This project calculates fixed deposit (FD) returns. You can input the principal amount, interest rate, and tenure, and the project will calculate the maturity amount and interest earned. It's a useful tool for investors and financial planners to evaluate the returns on fixed deposits.</p>
+            <button onclick="openProject('./Projects/FD-Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 51: Palindrome Checker App</h2>
+            <p>This project checks if a given string is a palindrome. You can input any word or phrase, and the project will determine if it reads the same forwards and backwards. It's a fun and educational tool for learning about palindromes and testing different strings.</p>
+            <button onclick="openProject('./Projects/Palindrome-Checker-App/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 52: Stopwatch Timer Application</h2>
+            <p>This project is a stopwatch timer application. You can start, stop, and reset the timer, as well as record lap times. It's a useful tool for timing events, workouts, or any activity that requires precise time tracking.</p>
+            <button onclick="openProject('./Projects/Stopwatch-Timer-Application/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 53: Text</h2>
+            <p>This project calculates fixed deposits. You can input the principal amount, interest rate, and tenure, and the project will calculate the maturity amount and interest earned. It's a useful tool for investors and financial planners to evaluate the returns on fixed deposits.</p>
+            <button onclick="openProject('./Projects/Text/t.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 54: Timer and Date Widget</h2>
+            <p>This project shows a timer and date widget. It displays the current time and date, and can be customized with different styles and formats. It's a useful tool for adding a functional and visually appealing element to your web pages.</p>
+            <button onclick="openProject('./Projects/Timer-and-Date-Widget/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 55: Sound Button</h2>
+            <p>This project is a stopwatch timer application. You can start, stop, and reset the timer, as well as record lap times. It's a useful tool for timing events, workouts, or any activity that requires precise time tracking.</p>
+            <button onclick="openProject('./Projects/sound-btn/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 56: Picture in Picture</h2>
+            <p>This project shows a timer and date widget. It displays the current time and date, and can be customized with different styles and formats. It's a useful tool for adding a functional and visually appealing element to your web pages.</p>
+            <button onclick="openProject('./Projects/picture-in-picture/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 57: 3D Card With Hover</h2>
+            <p>This project creates a 3D card effect with hover interactions. You can hover over the card to see it tilt and rotate, creating a dynamic and engaging visual effect. It's a great way to add interactivity and depth to your web pages.</p>
+            <button onclick="openProject('./Projects/3d Card With Hover/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 58: Detect Battery Status</h2>
+            <p>This project detects the battery status of your device. It provides information about the battery level, charging status, and remaining time. It's a useful tool for monitoring battery health and ensuring your device stays charged.</p>
+            <button onclick="openProject('./Projects/Detect Battery Status/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 59: Rock Paper Scissors</h2>
+            <p>This project is a classic Rock Paper Scissors game. You can play against the computer, and the project will determine the winner based on the rules of the game. It's a fun and interactive way to pass the time and challenge your friends.</p>
+            <button onclick="openProject('./Projects/Rock Paper Scissors/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 60: FlashLight Effect</h2>
+            <p>This project creates a flashlight effect on your screen. You can move the mouse to control the flashlight and illuminate different areas. It's a fun and interactive way to add a unique visual effect to your web pages.</p>
+            <button onclick="openProject('./Projects/FlashLight-Effect/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 61: Puzzle Game</h2>
+            <p>This project is a puzzle game where you can solve different puzzles by arranging pieces in the correct order. It's a fun and challenging way to test your problem-solving skills and keep your mind sharp.</p>
+            <button onclick="openProject('./Projects/Puzzle-Game/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 62: QR Code</h2>
+            <p>This project generates QR codes. You can input any text or URL, and the project will create a QR code that can be scanned with a mobile device. It's a useful tool for sharing information quickly and easily.</p>
+            <button onclick="openProject('./Projects/Qr-Code/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 63: Rich Text Editor</h2>
+            <p>This project is a rich text editor that allows you to create and format text with various styles and options. You can bold, italicize, underline, and change the font and color of the text. It's a useful tool for creating and editing documents, emails, and web content.</p>
+            <button onclick="openProject('./Projects/Rich-Text-Editor/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 64: Travel India</h2>
+            <p>This project provides information about traveling in India. It includes details about popular destinations, travel tips, and cultural insights. It's a useful resource for travelers planning a trip to India and looking to explore its diverse and rich heritage.</p>
+            <button onclick="openProject('./Projects/Travel-India/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 65: Balloon Pop</h2>
+            <p>This project is a fun game where you pop balloons by clicking on them. The goal is to pop as many balloons as possible within a given time limit. It's a simple and entertaining way to pass the time and improve your hand-eye coordination.</p>
+            <button onclick="openProject('./Projects/Balloon-Pop/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 66: Guess The Number</h2>
+            <p>This project is a number guessing game. You can input your guess, and the project will tell you if the number is too high, too low, or correct. It's a fun and challenging way to test your guessing skills and play with friends.</p>
+            <button onclick="openProject('./Projects/Guess-The-Number/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 67: Random Quote</h2>
+            <p>This project generates random quotes. Each time you click the button, a new quote is displayed. It's a great way to get inspired or find interesting quotes to share with others.</p>
+            <button onclick="openProject('./Projects/Random-Quote/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 68: Whack-a-Mole</h2>
+            <p>This project is a Whack-a-Mole game. You can click on the moles as they pop up to score points. It's a fun and fast-paced game that tests your reflexes and hand-eye coordination.</p>
+            <button onclick="openProject('./Projects/Whack-a-Mole/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 69: Dad Jokes</h2>
+            <p>This project displays random dad jokes. Each time you click the button, a new joke is displayed. It's a fun and lighthearted way to bring some humor into your day and share laughs with friends and family.</p>
+            <button onclick="openProject('./Projects/dad-jokes/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 70: Drawing App</h2>
+            <p>This project is a drawing application where you can create digital artwork. You can use various tools and colors to draw, paint, and sketch on a canvas. It's a great way to unleash your creativity and create beautiful digital art.</p>
+            <button onclick="openProject('./Projects/drawing-app/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 71: Drink Water</h2>
+            <p>This project helps you track your water intake. You can log the amount of water you drink throughout the day, and the project will remind you to stay hydrated. It's a useful tool for maintaining good health and ensuring you drink enough water daily.</p>
+            <button onclick="openProject('./Projects/drink-water/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 72: Music Player</h2>
+            <p>This project is a music player application. You can play, pause, and skip tracks, as well as create playlists and organize your music library. It's a great way to enjoy your favorite songs and manage your music collection.</p>
+            <button onclick="openProject('./Projects/Music-Player/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 73: 2D Brick Breaker</h2>
+            <p>This project is a 2D Brick Breaker game. You can control a paddle to bounce a ball and break bricks. The goal is to clear all the bricks without letting the ball fall. It's a fun and challenging game that tests your reflexes and hand-eye coordination.</p>
+            <button onclick="openProject('./Projects/2DBrickBreaker/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 74: 2048 Game</h2>
+            <p>This project is a web-based version of the popular 2048 game. The objective of the game is to slide numbered tiles on a grid to combine them and create a tile with the number 2048. Players can use the arrow keys to move the tiles in different directions. When two tiles with the same number touch, they merge into one. The game continues until the player creates a 2048 tile or no more moves are possible. It's a fun and addictive puzzle game that challenges your strategic thinking and planning skills.</p>
+            <button onclick="openProject('./Projects/2048Game/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 75: Annoying Button Game</h2>
+            <p>This project is a playful and challenging game where the objective is to click on a button that moves away from your cursor. Each time you try to click the button, it jumps to a new random position on the screen, making it difficult to catch. The game tests your mouse control and reaction time, providing a fun and frustrating experience. It's a great way to pass the time and challenge your friends to see who can click the button the fastest.</p>
+            <button onclick="openProject('./Projects/AnnoyingButtonGame/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 76: Bird Flap</h2>
+            <p>This project is a web-based version of the popular Flappy Bird game. The objective is to navigate a bird through a series of pipes by clicking or tapping the screen to make the bird flap its wings and stay in the air. The game is simple yet challenging, as the bird must avoid hitting the pipes or falling to the ground. The longer you keep the bird flying, the higher your score. It's a fun and addictive game that tests your timing and coordination skills.</p>
+            <button onclick="openProject('./Projects/BirdFlap/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 77: Dino Game</h2>
+            <p>This project is a web-based version of the classic Chrome Dino game. The objective is to control a dinosaur that runs across a desert landscape, avoiding obstacles such as cacti and birds by jumping or ducking. The game gets progressively faster and more challenging as you continue to play. It's a fun and simple game that tests your reflexes and timing. Perfect for a quick break or to challenge your friends to beat your high score.</p>
+            <button onclick="openProject('./Projects/DinoGame/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 78: Digital Clock With Reflection</h2>
+            <p>This project is a digital clock with a unique reflective design. It displays the current time in hours, minutes, and seconds, with a mirrored reflection effect that adds a stylish and modern touch. The clock can be customized with different colors and styles to match your preferences. It's a functional and visually appealing addition to any web page, providing a practical way to keep track of time while enhancing the overall design.</p>
+            <button onclick="openProject('./Projects/Digital Clock With Reflection/index.html')">Open Project</button>
+        </div>
+ 
+        <div class="project">
+            <h2>Project 79: Simon Game</h2>
+            <p>This project is a web-based version of the classic Simon game. The objective is to repeat a sequence of colors and sounds generated by the game. Each round, the game adds a new color to the sequence, and you must remember and repeat the entire sequence in the correct order. The game tests your memory and concentration, becoming more challenging as the sequence gets longer. It's a fun and engaging way to improve your cognitive skills and challenge your friends.</p>
+            <button onclick="openProject('./Projects/SimonGame/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 80: Relaxer</h2>
+            <p>This project is a relaxation and breathing exercise application. It guides you through a series of breathing exercises designed to help you relax and reduce stress. The application provides visual and audio cues to help you follow the breathing patterns, making it easy to practice mindfulness and relaxation techniques. It's a useful tool for managing stress, improving focus, and promoting overall well-being. Perfect for taking a break and finding a moment of calm in your day.</p>
+            <button onclick="openProject('./Projects/Relaxer/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 81: Pop The Bubbles</h2>
+            <p>This project is a fun and interactive game where the objective is to pop as many bubbles as possible within a given time limit. The bubbles appear randomly on the screen, and you must click on them to pop them. The game tests your hand-eye coordination and reaction time, providing a simple yet entertaining way to pass the time. It's a great game for all ages, offering a fun challenge and the satisfaction of popping bubbles.</p>
+            <button onclick="openProject('./Projects/PopTheBubbles/Pop The Bubbles.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 82: Pixel Art Maker</h2>
+            <p>This project is a pixel art creation tool that allows you to design and create your own pixel art. You can use a grid to draw and color individual pixels, creating detailed and intricate designs. The tool provides various colors and brush sizes, making it easy to create unique and beautiful pixel art. It's a fun and creative way to express your artistic skills and create digital artwork. Perfect for artists, designers, and anyone who enjoys pixel art.</p>
+            <button onclick="openProject('./Projects/Pixel-Art-Maker/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 83: Particles Button</h2>
+            <p>This project is an interactive button with a particle effect. When you click the button, it triggers a burst of particles that create a visually appealing animation. The particle effect can be customized with different colors, shapes, and behaviors, making it a unique and engaging element for your web pages. It's a fun and creative way to add interactivity and visual interest to your projects, enhancing the overall user experience.</p>
+            <button onclick="openProject('./Projects/Particles Button/index.html')">Open Project</button>
+        </div>
+      
+        <div class="project">
+            <h2>Project 84: GitHub Profiles</h2>
+            <p>This project is a GitHub profile viewer that allows you to search for and view GitHub user profiles. You can input a GitHub username, and the project will display the user's profile information, including their repositories, followers, and contributions. It's a useful tool for exploring GitHub profiles, discovering new projects, and connecting with other developers. The project provides a clean and user-friendly interface for browsing GitHub profiles and finding inspiration for your own projects.</p>
+            <button onclick="openProject('./Projects/github-profiles/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 85: Insect Catch Game</h2>
+            <p>This project is a fun and interactive game where the objective is to catch insects that appear on the screen. You can click on the insects to catch them, earning points for each one you catch. The game tests your hand-eye coordination and reaction time, providing a simple yet entertaining challenge. It's a great game for all ages, offering a fun way to pass the time and improve your reflexes.</p>
+            <button onclick="openProject('./Projects/insect-catch-game/index.html')">Open Project</button>
+        </div>
+    
+        <div class="project">
+            <h2>Project 86: Joke Teller</h2>
+            <p>This project is a joke teller that uses speech synthesis to read jokes out loud. You can click the button to hear a random joke, providing a fun and interactive way to enjoy humor. The project includes a variety of jokes, ensuring that you'll always find something to make you laugh. It's a great tool for sharing jokes with friends and family, and for adding a touch of humor to your day. The speech synthesis feature adds an extra layer of fun, making the jokes even more enjoyable.</p>
+            <button onclick="openProject('./Projects/joke-teller/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 87: Memory Card Game</h2>
+            <p>This project is a memory card game where the objective is to match pairs of cards. The cards are laid out face down, and you can flip two cards at a time to reveal their images. If the images match, the cards remain face up; if not, they are flipped back over. The game tests your memory and concentration, providing a fun and challenging way to improve your cognitive skills. It's a great game for all ages, offering a simple yet engaging way to pass the time and exercise your brain.</p>
+            <button onclick="openProject('./Projects/Memory Card Game/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 88: Movie App</h2>
+            <p>This project is a movie information app that allows you to search for and view details about movies. You can input a movie title, and the app will display information such as the plot, cast, release date, and ratings. It's a useful tool for movie enthusiasts, providing a convenient way to discover new movies and learn more about your favorite films. The app includes a clean and user-friendly interface, making it easy to browse and find movie information.</p>
+            <button onclick="openProject('./Projects/movie-app/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 89: Hangman Game</h2>
+            <p>This project is a web-based version of the classic Hangman game. The objective is to guess the hidden word by selecting letters one at a time. Each incorrect guess results in a part of the hangman being drawn, and the game ends when the hangman is fully drawn. The game tests your vocabulary and spelling skills, providing a fun and challenging way to pass the time. It's a great game for all ages, offering a simple yet engaging way to improve your language skills and have fun.</p>
+            <button onclick="openProject('./Projects/Hangman game/index.html')">Open Project</button>
+        </div>
+      
+        <div class="project">
+            <h2>Project 90: Simple Alarm Clock</h2>
+            <p>This project is a simple alarm clock application that allows you to set and manage alarms. You can input the time for the alarm, and the application will alert you when the time is reached. The alarm clock includes features such as snooze, repeat, and custom alarm tones, making it a versatile and useful tool for managing your schedule and ensuring you wake up on time. It's a practical and functional addition to any web page, providing a reliable way to keep track of time and manage your alarms.</p>
+            <button onclick="openProject('./Projects/Simple Alarm Clock/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 91: Flappy Bird Game</h2>
+            <p>This project is a web-based version of the popular Flappy Bird game. The objective is to navigate a bird through a series of pipes by clicking or tapping the screen to make the bird flap its wings and stay in the air. The game is simple yet challenging, as the bird must avoid hitting the pipes or falling to the ground. The longer you keep the bird flying, the higher your score. It's a fun and addictive game that tests your timing and coordination skills.</p>
+            <button onclick="openProject('./Projects/FlappyBirdGame/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 92: Friendship Calculator</h2>
+            <p>This project is a fun and interactive tool that calculates the compatibility of friendships. You can input the names of two friends, and the project will use a special algorithm to determine the strength and compatibility of their friendship. The results are displayed as a percentage, providing a fun and lighthearted way to see how well you and your friends match. It's a great tool for parties, gatherings, and just for fun, offering a unique way to explore the dynamics of your friendships.</p>
+            <button onclick="openProject('./Projects/FriendshipCalculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 93: Generate Random Number</h2>
+            <p>This project is a random number generator that allows you to generate random numbers within a specified range. You can input the minimum and maximum values, and the project will generate a random number within that range. It's a useful tool for various applications such as games, simulations, and statistical analysis. The project includes a simple and user-friendly interface, making it easy to generate random numbers and use them for your needs.</p>
+            <button onclick="openProject('./Projects/GenerateRandomNumber/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 94: Glassmorph Calculator</h2>
+            <p>This project is a calculator with a modern glassmorphism design. It allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a sleek and stylish interface with a glass-like appearance, making it a visually appealing tool for your web pages. It's a practical and functional addition to any project, providing a useful tool for performing calculations while enhancing the overall design.</p>
+            <button onclick="openProject('./Projects/Glassmorph Calculator/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 95: Glassmorphism Analog Clock</h2>
+            <p>This project is an analog clock with a modern glassmorphism design. It displays the current time with hour, minute, and second hands, featuring a sleek and stylish interface with a glass-like appearance. The clock can be customized with different colors and styles to match your preferences. It's a functional and visually appealing addition to any web page, providing a practical way to keep track of time while enhancing the overall design.</p>
+            <button onclick="openProject('./Projects/Glassmorphism Analog Clock/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 96: Magic 8 Ball</h2>
+            <p>This project is a web-based version of the classic Magic 8 Ball toy. You can ask a yes-or-no question, and the project will provide a random answer from a set of possible responses. The Magic 8 Ball is a fun and entertaining way to get answers to your questions, offering a playful and nostalgic experience. It's a great tool for parties, gatherings, and just for fun, providing a unique way to make decisions and have a good time.</p>
+            <button onclick="openProject('./Projects/Magic8Ball/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 97: Mario Game</h2>
+            <p>This project is a web-based version of the classic Mario game. The objective is to control Mario as he navigates through various levels, avoiding obstacles and enemies while collecting coins and power-ups. The game features the iconic graphics and gameplay of the original Mario game, providing a fun and nostalgic experience. It's a great way to relive the classic Mario adventures and challenge your platforming skills.</p>
+            <button onclick="openProject('./Projects/Mario Game/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 98: Meditation App</h2>
+            <p>This project is a meditation and mindfulness application that guides you through various meditation exercises. It provides audio and visual cues to help you relax and focus, offering a range of meditation techniques such as deep breathing, body scan, and guided imagery. The app is designed to help you reduce stress, improve focus, and promote overall well-being. It's a useful tool for anyone looking to incorporate mindfulness and meditation into their daily routine.</p>
+            <button onclick="openProject('./Projects/MeditationApp/index.html')">Open Project</button>
+        </div>
+        <div class="project">
+            <h2>Project 99: Moon Animation</h2>
+            <p>This project is an animated representation of the moon's phases. It displays the current phase of the moon, along with an animation that shows the progression of the moon's phases over time. The animation is visually appealing and educational, providing a unique way to learn about the lunar cycle. It's a great addition to any web page, offering a functional and engaging way to explore the phases of the moon and enhance your understanding of astronomy.</p>
+            <button onclick="openProject('./Projects/Moon Animation/index.html')">Open Project</button>
+        </div>
+
+        <!-- Add more project blocks as needed -->
+    </div>
+
+    <script src="indecx.js"></script>
+</body>
+</html>
